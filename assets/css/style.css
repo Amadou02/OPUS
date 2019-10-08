@@ -11,7 +11,7 @@ h1 {
   text-align: center;
   width: 180px;
 }
-/*Navbar déroulante au survol vertical*/
+/*paramètre navbar déroulante au survol vertical*/
 .vertical_menu ul {
   padding:0;
   margin:0;
