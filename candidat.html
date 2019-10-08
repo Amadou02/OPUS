@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+
+  <form action="inscription.php" method="post">
+    <fieldset class="identifiant">
+      <legend>Identifiant</legend>
+      <label for="identifiant">Etes-vous demandeur d'emploi </legend>
+        <input type="radio" name="Emploi" value="oui"id="oui"/>
+        <label for="oui">oui</label>
+        <input type="radio" name="Emploi" value="non"id="non"/>
+        <label for="non">non</label><br />
+        <label for="Identifiant">Identifiant</label>
+        <input id="Identifiant" name="Identifiant" type="text" />
+    </fieldset>
+        <fieldset class="etat-civil">
+          <legend>Etat civil</legend>
+          <label for="nom">Nom</label>
+          <input id="nom" name="nom" type="text" /><br />
+          <label for="prenom">Prénom </label>
+          <input id="prenom" name="prenom" type="text" /><br />
+          <label for="date-de-naissance">Date de naissance</label>
+          <input id="date-de-naissance" name="date-de-naissance" type="text" />
+        </fieldset>
+        <fieldset class="adresse">
+          <legend>Adresse</legend>
+          <label>Rue</label>
+          <input id="rue" name="rue" type="text" /><br />
+          <label>Code postal</label>
+          <input id="code-postal" name="code-postal" type="text" /><br />
+          <label>Ville</label>
+          <input id="ville" name="ville" type="text" />
+        </fieldset>
+        <fieldset class="Diplôme">
+          <legend>Diplôme</legend>
+          <label>Indiquez votre parcours scolaire</label>
+          <textarea name="Cursus scolaire" id="Cursus scolaire" rows="50" cols="50"></textarea>
+        </fieldset>
+        <fieldset>
+        <legend>Expérience professionnelle</legend>
+        <label>Indiquez votre expérience professionnelle</label>
+          <textarea name="Expérience professionnelle" id="Expérience professionnelle" rows="50" cols="50"></textarea>
+        </fieldset>
+        <fieldset>
+        <legend>Formation</legend>
+        <button onclick="alert(this.value)">Valider</button>
+
+      </body>
+      </html>
