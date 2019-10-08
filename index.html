@@ -1,34 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>navbar</title>
-  </head>
-  <body>
-    <ul id="vertical_menu">
-	<li><a href="#">Accueil</a>
-		<ul>
-			<li><a href="#"></a></li>
-			<li><a href="#"></a></li>
-			<li><a href="#"></a></li>
-			<li><a href="#"></a></li>
-		</ul>
-	</li>
- <li id="vertical_menu"><a href="#">Formations</a>
-		<ul>
-			<li><a href="#">Formations courte</a></li>
-			<li><a href="#">Formation longue</a></li>
-		</ul>
-	</li>
-  <li id="vertical_menu"><a href="#">Organisation</a>
-    <ul>
-      <li><a href="#">L'équipe OPUS</a></li>
-      <li><a href="#">Recrutement</a></li>
-    </ul>
-  </li>
-  <li id="vertical_menu"><a href="#">Contact</a>
-  </li>
-</ul>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>navbar</title>
+</head>
+<body>
+  <!--Navbar déroulante au survol vertical-->
+  <ul class="vertical_menu">
+    <li><a href="#">Accueil</a></li>
+    <li class="vertical_menu"><a href="#">Formations</a>
+      <ul>
+        <li><a href="#">Formations courte</a></li>
+        <li><a href="#">Formation longue</a></li>
+      </ul>
+    </li>
+    <li class="vertical_menu"><a href="#">Organisation</a>
+      <ul>
+        <li><a href="#">L'équipe OPUS</a></li>
+        <li><a href="#">Recrutement</a></li>
+      </ul>
+    </li>
+    <li class="vertical_menu"><a href="#">Contact</a></li>
+  </ul>
+</body>
 </html>
