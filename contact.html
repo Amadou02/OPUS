@@ -1,28 +1,59 @@
 <!DOCTYPE html>
-<html lang=fr dir="ltr">
+<html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>OPUS contacter nous!</title>
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <title>OPUS - Contact</title>
 </head>
 <body>
-  <h1>Notre bureau</h1>
-  <ul>
-    <li>Adresse: 15 rue du Général Leclerc, Amiens 80000</li>
-    <li>n°téléphone: 0789685243</li>
-    <li>Adresse email:contact@OPUS.net</li>
+  <header>
+    <div class="header">
+      <img src="assets/img/logo.png" alt="logo opus"/>
+      <h1>OPUS</h1>
+      <div class="espace">
+        <img src="assets/img/candidate.jpg" alt="logo candidat" class="profils"/>
+        <p><a class="footerLinks" href="#">Candidat</a></p>
+      </div>
+    </div>
+  </header>
+  <!-- Navbar -->
+  <ul class="vertical_menu">
+    <li><a href="index.html">Accueil</a></li>
+    <li class="vertical_menu"><p>Formations</p>
+      <ul>
+        <li><a href="formationsCourtes.html">Formations courtes</a></li>
+        <li><a href="formationsLongues.html">Formations longues</a></li>
+      </ul>
+    </li>
+    <li class="vertical_menu"><p>Organisation</p>
+      <ul>
+        <li><a href="opusTeam.html">L'équipe OPUS</a></li>
+        <li><a href="recrutement.html">Recrutement</a></li>
+      </ul>
+    </li>
+    <li class="vertical_menu"><a href="contact.html">Contact</a></li>
   </ul>
-  <form>
-    <fieldset>
-      <legend>Ecrivez nous.</legend>
-      <input type="text" name="text" placeholder="Nom" required><br>
-      <input type="text" name="text" placeholder="Prénom" required><br>
-      <input type="text" name="text" placeholder="Adresse email" required><br>
-      <textarea placeholder="message" style="width:600px; height:150px;" required>
-      </textarea><br>
-      <p><input type="radio">En envoyant cet e-mail, j´accepte que mes coordonnées           soient enregistrées et utilisées pour me contacter. Je           peux révoquer ce consentement à tout moment.</p>
-    </input>
-    <button type="button">Envoyer!</button>
-  </fieldset>
-</form>
-</body>
-</html>
+  <!-- form -->
+  <p>Notre bureau<br>Adresse 15 rue du général Leclerc, Amiens 80000<br>N°téléphone : 0788986543<br> Adresse email: contact@OPUS.net
+    <div id="contact">
+      <p>Ecrivez nous.</p>
+      <input type="text" name="text" value="Nom"><br>
+      <input type="text" name="text" value="Prénom"><br>
+      <input type="text" name="text" value="Adresse email"><br>
+      <textarea name="message" style="width:300px; height:100px;">
+        Votre message</textarea><br>
+        <p><input type="radio">En envoyant cet e-mail, j´accepte que mes coordonnées
+          soient enregistrées et utilisées pour me contacter. Je
+          peux révoquer ce consentement à tout moment.</p>
+        </input>
+      </div>
+    </div>
+    <!--recurring footer-->
+    <footer>
+      <p class="footer">
+        <a class="footerLinks" href="mentionsLegales.html">Mentions légales</a>
+        <a class="footerLinks" href="politiqueDeConfidentialite.html">Politique de confidentialité</a>
+      </p>
+    </footer>
+  </body>
+  </html>
