@@ -127,3 +127,16 @@ h1 {
   height: auto;
   background-color: grey;
 }
+.confidentiality {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+
+}
+.midContent {
+  display: flex;
+  justify-content: space-between;
+}
+.confidentialityList {
+  align-content: flex-start;
+}
