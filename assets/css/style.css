@@ -1,12 +1,10 @@
 
 h1 {
   color:white;
-
 }
 header {
   background-color: #F43B38;
   box-shadow: 10px 10px 10px #828282;
-
 }
 .header {
   height: 100px;
@@ -21,7 +19,6 @@ header {
   width: 40px;
   border: 2px solid #F43B38;
 }
-
 .espace {
   display:flex;
   flex-direction: row;
