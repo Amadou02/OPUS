@@ -44,26 +44,27 @@ h1 {
 }
 .vertical_menu {
   padding:0;
-  margin:0;
   list-style:none;
   text-align: center;
   width: 180px;
+  height: auto;
 }
 /*paramètre navbar déroulante au survol vertical*/
-.vertical_menu ul {
+.vertical_menu ul, ul {
   padding:0;
-  margin:0;
   list-style:none;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 .vertical_menu li {
   background-color:#729EBF;
-  background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
   background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
   border-radius: 6px;
   margin-bottom:2px;
   box-shadow: 3px 3px 3px #999;
   border:solid 1px #333A40;
+
 }
 .vertical_menu li li {
   max-height:0;
@@ -98,4 +99,34 @@ h1 {
 }
 .vertical_menu li:hover li {
   max-height: 15em;
+}
+
+.container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin-left: 15%;
+ margin-top: 5%;
+}
+.element {
+  width: 500px;
+  height: auto;
+  background-color: grey;
+   margin-bottom: 20px;
+}
+.element1 {
+  width: 500px;
+  height: auto;
+  background-color: grey;
+   margin-bottom: 20px;
+}
+.element2{
+  width: 500px;
+  height: auto;
+  background-color: grey;
+}
+.element3{
+  width: 500px;
+  height: auto;
+  background-color: grey;
 }
