@@ -168,3 +168,15 @@ h1 {
   justify-content: center;
   flex-flow: row-reverse wrap;
 }
+.confidentiality {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+.midContent {
+  display: flex;
+  justify-content: space-between;
+}
+.confidentialityList {
+  align-content: flex-start;
+}
